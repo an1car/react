@@ -1,0 +1,49 @@
+/* Organizando estilo da página inicial */
+.listafilme {
+    max-width: 880px;
+    margin: 14px auto;
+}
+
+.listafilme article{
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* Ajuste de imagem */
+.listafilme img{
+    width: 900px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover; 
+    /* ou object-fit: cover; */
+}
+
+/* Ajuste de fonte */
+.listafilme strong{
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+/* Ajuste de botão acessar */
+.listafilme a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 24px;
+    background-color: dodgerblue;
+    text-decoration: none;
+    color: white;
+}
+
+/* Ajuste loadding para carregamento da pagina */
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
