@@ -1,14 +1,14 @@
 /* Organizando estilo da página inicial */
-.titulo{
+.titulo-b{
     text-align: center;
     margin-top: 20px;
 }
-.listafilme {
+.listafilme-b {
     max-width: 880px;
     margin: 14px auto;
 }
 
-.listafilme article{
+.listafilme-b article{
     width: 100%;
     background-color: white;
     padding: 15px;
@@ -16,7 +16,7 @@
 }
 
 /* Ajuste de imagem */
-.listafilme img{
+.listafilme-b img{
     width: 900px;
     max-width: 100%;
     max-height: 340px;
@@ -26,7 +26,7 @@
 }
 
 /* Ajuste de fonte */
-.listafilme strong{
+.listafilme-b strong{
     margin-bottom: 14px;
     text-align: center;
     font-size: 22px;
@@ -34,7 +34,7 @@
 }
 
 /* Ajuste de botão acessar */
-.listafilme a{
+.listafilme-b a{
     display: flex;
     align-items: center;
     justify-content: center;

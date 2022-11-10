@@ -24,3 +24,21 @@ header{
     color: black;
     border-radius: 4px;
 }
+
+.sobre{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 14px;
+    color: black;
+    border-radius: 4px;
+}
+
+.proximos{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 14px;
+    color: black;
+    border-radius: 4px;
+}
