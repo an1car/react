@@ -36,7 +36,7 @@ function Home(){
     //retorna lista de filmes
     return(
         <div className='titulo'>
-            <h1>Em exibição</h1>
+            <h1>Filmes Em Exibição</h1>
             <div className='container'>
                 <div className='listafilme'>
                     {Filmes.map((filme) =>{
