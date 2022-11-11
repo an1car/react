@@ -35,7 +35,7 @@ function Breve(){
     //retorna lista de filmes
     return(
         <div className='titulo-b'>
-            <h1>Em Breve</h1>
+            <h1>Filmes a Estrear em Breve</h1>
             <div className='container'>
                 <div className='listafilme-b'>
                     {Filmes.map((filme) =>{
